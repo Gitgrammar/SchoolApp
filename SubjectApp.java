@@ -11,13 +11,13 @@ Subject subName=new Subject();
 
 for(int i=1;i<subjectsNum;i++){
     
-System.out.println(i+"科目の名前>>");
+System.out.print(i+"科目の名前>>");
 String selectedSub=sc.next();
 System.out.println("入力された文字は"+selectedSub);
-System.out.println("エラー探し");
 
+
+System.out.print(i+"科目の点数>>");
 int inputScore=sc.nextInt();
-System.out.print(i+"科目の点数>>"+inputScore);
 subName.setScore(inputScore);
 }
 }
