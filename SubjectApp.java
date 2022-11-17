@@ -8,11 +8,15 @@ public class SubjectApp {
     
 Subject subName=new Subject();
 
-for(int i=1;i<subjectsNum;i++){
-for(int j=1;j<subjectsNum;j++){
-System.out.println(i+"科目の名前>>"+subName.getSubject());
+
+
+for(int i=1;i<subjectsNum+i;i++){
+String selectedSub=sc.nextLine();
+System.out.print(i+"科目の名前>>"+selectedSub);
+int inputScore=sc.nextInt();
+System.out.print(i+"科目の点数>>"+inputScore);
+subName.setScore(inputScore);
 }
-subName.setSubject(sc.nextLine());
 }
  }
-}
+
