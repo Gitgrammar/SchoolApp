@@ -10,7 +10,7 @@ public Subject(String subject,int score){
 }
 //メソッド
 void showInfo(){
-System.out.printf(this.subject=":");
+System.out.println(this.subject+":");
 }
   }
   
