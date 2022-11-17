@@ -3,16 +3,14 @@ public class Subject {
    private int score;
    
    
-   
-  void setSubject(String subject){
+   //コンストラクタ
+public Subject(String subject,int score){
     this.subject=subject;
-  }
-  String getSubject(){
-    return this.subject;
-  }
-  void setScore(int score){
     this.score=score;
+}
+//メソッド
+void showInfo(){
+System.out.printf(this.subject=":");
+}
   }
   
-   }
-

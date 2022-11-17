@@ -6,20 +6,16 @@ public class SubjectApp {
     Scanner sc=new Scanner(System.in);
     int subjectsNum=sc.nextInt();
     
-Subject subName=new Subject();
-
+Subject sub=new Subject(null, subjectsNum);
 
 for(int i=1;i<subjectsNum;i++){
     
 System.out.print(i+"科目の名前>>");
 String selectedSub=sc.next();
-System.out.println("入力された文字は"+selectedSub);
-
-
 System.out.print(i+"科目の点数>>");
 int inputScore=sc.nextInt();
-subName.setScore(inputScore);
 }
+sub.showInfo();
 }
  }
 
