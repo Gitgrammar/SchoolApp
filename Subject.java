@@ -13,8 +13,6 @@ public class Subject {
   void setScore(int score){
     this.score=score;
   }
-  int getScore(){
-    return this.score;
-  }
+  
    }
 
