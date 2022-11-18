@@ -18,8 +18,10 @@ System.out.print(i+1+"科目の点数>>");
 int inputScore=sc.nextInt();
 inputScores[i]=inputScore;
 }
-System.out.println(Arrays.toString(selectedSubs));
-System.out.println(Arrays.toString(inputScores));
+System.out.println("成績は以下の通りになりました。");
+for(int i=0;i<selectedSubs.length;i++){
+    System.out.println(selectedSubs[i]+":"+inputScores[i]);
+}
 
 }
  }
