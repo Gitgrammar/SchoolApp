@@ -22,7 +22,12 @@ System.out.println("成績は以下の通りになりました。");
 for(int i=0;i<selectedSubs.length;i++){
     System.out.println(selectedSubs[i]+":"+inputScores[i]);
     if(inputScores[i]%10==0){
-        System.out.println("**********");
+        for(int j=0;j<inputScores[i];j++){
+            String star="*";
+            
+        
+            System.out.print(star);
+        }
     }
 }
 
